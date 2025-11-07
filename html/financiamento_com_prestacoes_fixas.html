@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/financiamento_com_prestacoes_fixas.js"defer></script>
+    <title>Calculador do cidadão</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">Principal</a>
+            <a href="./aplicacao_com_depoositos_regulares.html">Aplicação com depósitos_regulares</a>
+            <a href="./valor_futuro_de_capital.html">Valor futuro de capital</a>
+            <a href="./financiamento_com_prestacoes_fixas.html">Financiamento com prestações fixas</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Cálculo do Financiamento com prestações fixas</h1>
+        <br>
+        <hr>
+        <br>
+        <p class="p">Para calcular o Financiamento com prestações fixas</p>
+        <br>
+        <label for="numero_meses">Dijite o número meses: </label><br>
+        <input type="text" id="numero_meses" placeholder="numero_meses"><br><br>
+        <hr>
+        <br>
+        <label for="taxa_juros_mensal">Dijite a taxa juros mensal: </label><br>
+        <input type="text" id="taxa_juros_mensal" placeholder="taxa_juros_mensal"><br><br>
+        <hr>
+        <br>
+        <label for="valor_da_prestacao">Dijite o valor da prestação: </label><br>
+        <input type="text" id="valor_da_prestacao" placeholder="valor_da_prestacao"><br><br>
+        <hr>
+        <br>
+        <button onclick="principal()">Calcular</button><br><br>
+        <div id="resposta"></div>
+        <br><br><br>
+    </main>
+    <footer>
+        <small>By Arthur Furtado Machado &copy; &trade;</small>
+    </footer>
+</body>
+</html>
